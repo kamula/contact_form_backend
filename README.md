@@ -77,6 +77,5 @@ While SQLite is suitable for development, you may opt for a more robust database
 ## Validations
 
 Validation rules are applied in the `ContactController` to ensure that `fullName`, `email`, and `message` are correctly formatted and not empty, enhancing data integrity and security.
-
 ```
 

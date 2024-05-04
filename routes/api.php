@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 // Contact form POST API route
 Route::post('/contact', [ContactController::class, 'store']);
+Route::get('/contact', [ContactController::class, 'index']);
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();

@@ -12,7 +12,8 @@ class ContactController extends Controller
      */
     public function index()
     {
-        //
+        //GET all contacts
+        return Contact::all();
     }
 
     /**
@@ -35,7 +36,8 @@ class ContactController extends Controller
      */
     public function show(string $id)
     {
-        //
+        //Get single contact
+        
     }
 
     /**
