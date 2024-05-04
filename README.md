@@ -64,7 +64,7 @@ php artisan serve
 Navigate to `http://localhost:8000/` to view the application.
 
 
-## Reasond for Using SQLite 
+## Reasons for Using SQLite 
 
 - **Ease of Setup**: SQLite databases are easy to set up and require no separate server process.
 - **Portability**: A SQLite database is stored in a single file, which can easily be copied or shared.
