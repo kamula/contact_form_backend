@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -15,8 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Contact form POST API route
-Route::post('/contact', function () {
-});
+Route::post('/contact', [ContactController::class, 'store']);
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
