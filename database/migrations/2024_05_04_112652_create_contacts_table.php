@@ -17,9 +17,7 @@ return new class extends Migration
             $table->string('fullName');
             $table->string('email');
             $table->text('message');
-            $table->timestamp('dateCreated')->default(DB::raw('CURRENT_TIMESTAMP'));
-            // If using Laravel's default timestamp names:
-            // $table->timestamps();
+            $table->timestamps();
         });
     }
 
