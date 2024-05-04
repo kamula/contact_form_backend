@@ -63,6 +63,9 @@ php artisan serve
 
 Navigate to `http://localhost:8000/` to view the application.
 
+## API Documentation
+
+For detailed API usage and examples, please refer to our [API Documentation on Postman](https://documenter.getpostman.com/view/9260831/2sA3JGeiPY).
 
 ## Reasons for Using SQLite 
 
@@ -77,5 +80,3 @@ While SQLite is suitable for development, you may opt for a more robust database
 ## Validations
 
 Validation rules are applied in the `ContactController` to ensure that `fullName`, `email`, and `message` are correctly formatted and not empty, enhancing data integrity and security.
-```
-
